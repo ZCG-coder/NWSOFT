@@ -1,0 +1,92 @@
+html {
+    background: #517CAE;
+    font-family: "Source Code Pro", monospace;
+}
+
+h3, a, p {
+display: inline;
+}
+
+a {
+text-decoration: none;
+}
+
+#btn:link, #btn:visited {
+background-color: #0F0FD7;
+color: white;
+padding: 14px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+
+#btn:hover, #btn:active {
+background-color: #0E4B96;
+}
+
+#redHighlight {
+color: #FF0000;
+}
+
+#blueHighlight {
+color: #9BA7B4;
+}
+
+#greenHighlight {
+color: #8DDDAC;
+}
+
+@keyframes animatedBackground {
+      from { background-position: 0 0; }
+      to { background-position: 100% 0; }
+    }
+    @-webkit-keyframes animatedBackground {
+      from { background-position: 0 0; }
+      to { background-position: 100% 0; }
+    }
+    @-moz-keyframes animatedBackground {
+      from { background-position: 0 0; }
+      to { background-position: 100% 0; }
+    }
+
+    #animate-area {
+        height: 100px;
+        background-position: 0px 0px;
+        background-repeat: repeat-x;
+
+        animation: animatedBackground 140s linear infinite;
+        -ms-animation: animatedBackground 140s linear infinite;
+        -moz-animation: animatedBackground 140s linear infinite;
+
+
+        -webkit-animation: animatedBackground 140s linear infinite;
+    }
+
+    #respond {
+  margin-top: 40px;
+}
+
+#respond input[type='text'],
+#respond input[type='email'],
+#respond textarea {
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+
+  line-height: 1.4em;
+}
+
+code {
+    background-color: #444444;
+    color: #D7D7D7;
+    border: 1px solid black;
+    border-radius: 3px;
+}

@@ -1,0 +1,44 @@
+/*
++----------------------+
+|STYLE.CSS              \
+|WRITTEN BY ANDY ZHANG   \
+|WITH SOME W3SCHOOLS CODE \
++==========================+
+*/
+html {
+    font-family: "Source Code Pro", monospace;
+    background-color: #000000;
+    color: #36A300;
+}
+
+a {
+    color: lime;
+}
+
+details {
+    border: 1px solid green;
+    border-radius: 4px;
+    padding: 1em;
+    width: 100%;
+}
+
+summary {
+    font-weight: bolder;
+    outline: none;
+}
+
+section {
+    border: 1px solid green;
+    border-radius: 4px;
+    padding: 1em;
+    width: 100%;
+}
+
+table, tr, td {
+    border: 1px solid darkgreen;
+    border-radius: 4px;
+}
+
+th {
+  width: 75%;
+}
