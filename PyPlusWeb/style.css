@@ -7,6 +7,10 @@ h3, a, p {
 display: inline;
 }
 
+table, th, tr, td {
+    border: 1px solid #000000;
+}
+
 a {
 text-decoration: none;
 }
@@ -51,7 +55,7 @@ color: #8DDDAC;
 
     #animate-area {
         height: 100px;
-        background-position: 0px 0px;
+        background-position: 0 0;
         background-repeat: repeat-x;
 
         animation: animatedBackground 140s linear infinite;

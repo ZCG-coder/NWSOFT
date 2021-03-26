@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Menu</title><meta charset="UTF-8">
+    <link href="../style.css" rel="stylesheet">
+    <link rel="icon" href="Img/ico.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+<img src="Img/editmenu.png" alt="Edit menu">
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Function</th>
+    </tr>
+    <tr>
+        <td>Undo</td>
+        <td>Undo previous change.<a href="#Desc">[*]</a></td>
+    </tr>
+    <tr>
+        <td>Redo</td>
+        <td>Redo previous change.<a href="#Desc">[*]</a></td>
+    </tr>
+    <tr>
+        <td>Cut</td>
+        <td>Cuts text to clipboard.</td>
+    </tr>
+    <tr>
+        <td>Copy</td>
+        <td>Copies text to clipboard.</td>
+    </tr>
+    <tr>
+        <td>Paste</td>
+        <td>Pastes clipboard text to textbox.</td>
+    </tr>
+    <tr>
+        <td>Delete selected</td>
+        <td>Deletes selected text.</td>
+    </tr>
+    <tr>
+        <td>Duplicate line or selected</td>
+        <td>Duplicates the current line or selected content.</td>
+    </tr>
+    <tr>
+        <td>Select all</td>
+        <td>Select all text in the textbox.</td>
+    </tr>
+</table>
+<hr>
+<h6 id="Desc">Description Section</h6>
+<p>This editor uses stacks to do undo/redo. It might crash because of stack overflow
+    (Note: Not that popular Q&amp;A platform)</p>
+</body>
+</html>

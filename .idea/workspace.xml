@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88e10f68-918c-4f46-a5ef-d2f331a14c36" name="Default Changelist" comment="Added the json to get version">
-      <change beforePath="$PROJECT_DIR$/PyPlusWeb/ver.json" beforeDir="false" afterPath="$PROJECT_DIR$/PyPlusWeb/ver.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.NWSOFT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NWSOFT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,16 +61,6 @@
       <recent name="$PROJECT_DIR$/PyPlusWeb/Photos" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/.NWSOFT/index.html" useFirstLineBreakpoints="true" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -87,6 +79,7 @@
       <workItem from="1613445637674" duration="3107000" />
       <workItem from="1613768265376" duration="557000" />
       <workItem from="1613769852698" duration="782000" />
+      <workItem from="1616723960188" duration="188000" />
     </task>
     <task id="LOCAL-00001" summary="READY">
       <created>1612236312681</created>
@@ -123,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613770031440</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated PyPlusWeb/ver.json">
+      <created>1615790732855</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615790732855</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +147,8 @@
     <MESSAGE value="Added custom 404." />
     <MESSAGE value="Added the json to get version" />
     <MESSAGE value="Fixed json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed json" />
+    <MESSAGE value="Updated PyPlusWeb/ver.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated PyPlusWeb/ver.json" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
