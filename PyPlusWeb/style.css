@@ -3,10 +3,6 @@ html {
     font-family: "Source Code Pro", monospace;
 }
 
-h3, a, p {
-display: inline;
-}
-
 table, th, tr, td {
     border: 1px solid #000000;
 }
